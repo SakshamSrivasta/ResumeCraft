@@ -7,7 +7,7 @@
 A modern React-based resume builder that helps professionals create polished, ATS-optimized resumes with AI-powered suggestions.
 
 ## 🚀 Live Demo
-
+ 
 Check out the live application: [Resume Craft](https://resumecrafthyd.vercel.app/)
 
 ## 📋 What is Resume Craft?
