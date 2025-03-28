@@ -1,0 +1,81 @@
+/* High Contrast Theme */
+.has-high-contrast-theme {
+  --primary-color: #000000; /* Black */
+  --background-color: #FFFFFF; /* White */
+  --text-color: #000000; /* Black */
+  --link-color: #0000EE; /* Bright Blue */
+  --accent-color: #000000; /* Black */
+  --border-color: #000000; /* Black */
+}
+
+/* Global resets for high contrast */
+.has-high-contrast-theme body,
+.has-high-contrast-theme div,
+.has-high-contrast-theme section,
+.has-high-contrast-theme main,
+.has-high-contrast-theme header,
+.has-high-contrast-theme footer {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* Typography */
+.has-high-contrast-theme h1,
+.has-high-contrast-theme h2,
+.has-high-contrast-theme h3,
+.has-high-contrast-theme h4,
+.has-high-contrast-theme h5,
+.has-high-contrast-theme h6,
+.has-high-contrast-theme p,
+.has-high-contrast-theme span,
+.has-high-contrast-theme label {
+  color: var(--text-color) !important;
+}
+
+/* Form elements */
+.has-high-contrast-theme input,
+.has-high-contrast-theme select,
+.has-high-contrast-theme textarea {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+  border: 2px solid var(--border-color) !important;
+}
+
+/* Buttons */
+.has-high-contrast-theme button,
+.has-high-contrast-theme [role="button"] {
+  background-color: var(--text-color) !important;
+  color: var(--background-color) !important;
+  border: 2px solid var(--border-color) !important;
+  font-weight: bold !important;
+}
+
+/* Links */
+.has-high-contrast-theme a,
+.has-high-contrast-theme a:visited {
+  color: var(--link-color) !important;
+  text-decoration: underline !important;
+}
+
+/* Focus states */
+.has-high-contrast-theme *:focus {
+  outline: 3px solid #FF0000 !important; /* Red outline for focus */
+  outline-offset: 2px !important;
+}
+
+/* App-specific components */
+.has-high-contrast-theme .App-header {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* Support for system preference */
+@media (prefers-contrast: more) {
+  body {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+  }
+  
+  /* Add additional selectors as needed */
+}
+  
