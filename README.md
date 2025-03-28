@@ -1,7 +1,7 @@
 # Resume Craft
 
 <p align="center">
-  <img src="public/logo192.png" alt="Resume Craft Logo" width="80" />
+  <img src=""C:\Users\srisa\OneDrive\Desktop\logo192.png"" alt="Resume Craft Logo" width="80" />
 </p>
 
 A modern React-based resume builder that helps professionals create polished, ATS-optimized resumes with AI-powered suggestions.
